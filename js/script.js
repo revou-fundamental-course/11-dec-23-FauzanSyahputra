@@ -2,6 +2,7 @@ const nameInput = document.getElementById("name");
 const emailInput = document.getElementById("email");
 const messageInput = document.getElementById("message");
 const genderInput = document.getElementById("gender");
+const submitButton = document.getElementById("submit");
 
 document.addEventListener("DOMContentLoaded", function() {
     const userName = prompt("Please enter your name:");
@@ -38,3 +39,7 @@ function validateForm(event) {
                                <p>Message: ${message}</p>`;
     }
 }
+
+submitButton.addEventListener('click', function() {
+    alert('Your data has been sent');
+});

@@ -186,7 +186,7 @@
 
 .listMentors li {
     text-align: center;
-    font-size: Arial, Helvetica, sans-serif, sans-serif;
+    font-size: "PT Sans", sans-serif;
 }
 
 
@@ -232,6 +232,14 @@
     text-align: center;
 }
 
+.footer h6 {
+    padding-top: 1em;
+    font-weight: 550;
+}
+
 .footer p {
-    padding: 1em;
+    padding-top: 0em;
+    width: 100%;
+    padding-bottom: 1em;
+    font-family: "PT Sans", sans-serif;
 }
