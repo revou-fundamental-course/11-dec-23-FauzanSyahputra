@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/css/style.css" rel="stylesheet" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&family=PT+Sans&display=swap" rel="stylesheet">
+    <title>Home</title>
+    
+</head>
+<body>
+
+    <section>
+        <nav class="navbar navbar-expand-lg" >
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="/assets/syahputra-industries-high-resolution-logo-transparent.png">
+                </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link" href="index.html">Home</a>
+                  <a class="nav-link" href="/header/ourProfile.html">Our Profile</a>
+                  <a class="nav-link" href="#">Products</a>
+                  <a class="nav-link" >Contacts</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+
+        <div class="welcomePage">
+            <p id="welcomeMessage"></p>
+        </div>
+
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="container-item">
+                    <div class="carousel-item active">
+                        <img src="assets/donation.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Helping Those In Need</h5>
+                            <p>Those who are unfortunate in teh conflict zones have our full attention</p>
+                          </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="assets/urban_mech_patrol_by_sancient_ddy9cpp.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Preserving The Peace</h5>
+                            <p>Syahputra Industries commitment to bring peace has never been changed</p>
+                          </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="/assets/larm-rmah-AEaTUnvneik-unsplash.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Bring Changes Through The World</h5>
+                            <p>Through our weapons and defences, we will bring change to the world</p>
+                          </div>
+                      </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+        <div class="container">
+            <h1 class="leaders"> Our available positions </h1>
+            <ul class="listMentors">
+                <li>
+                    <img src="/assets/software.jpg" id="software" class="img">
+                    <a href="#"><p>Software Engineering</p></a>
+                </li>
+                <li>
+                    <img src="/assets/mechanical.jpg" class="img">
+                    <a href="#"><p>Mechanical Engineering</p></a>
+                </li>
+                <li>
+                    <img src="/assets/dataAnalyst.jpg" class="img">
+                    <a href="#"><p>Data Analyst</p></a>
+               </li>
+            </ul>
+        </div> 
+        
+        <div class="container-formList">
+            <ul class="formList">
+                <li class="formInput">
+                    <p>Message us!</p>
+                    <form id="messageForm" onsubmit="validateForm(event)">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                        <br>
+                    
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                        <br>
+                            
+                        <label id="genderLabel" for="gender">Gender</label>
+                        <input type="radio" id="gender" name="gender" value="Male">
+                        <label for="Male">Male</label>
+                        <input type="radio" id="gender" name="gender" value="Female">
+                        <label for="Female">Female</label>
+                        <br>
+
+                        <label id="messageLabel" for="message">Message:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                        <br>
+                
+                        <input id="submit" type="submit" value="Submit">
+                    </form>
+                 </li>
+
+                <li class="formOutput">
+                    <div id="result">
+
+                    </div>
+                 </li>
+            </ul>
+        </div>
+
+        <div class="footer">
+            <p>Join us in creating a better world<br>
+            for out next generations</p>
+        </div>
+
+        
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <script src="/js/script.js"></script>
+    </section>
+</body>
+</html>

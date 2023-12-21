@@ -1,0 +1,237 @@
+.topbar {
+    background-color: black;
+}
+.navbar {
+    background-color: transparent;
+    box-shadow: 2px 2px 7px black;
+}
+
+.navbar-brand img {
+    height: 3rem;
+    width: 10rem;
+    margin-left: 2rem;
+}
+
+.navbar a {
+    font-size: 1rem;
+    font-weight: 100;
+    color: black;
+    margin-right: 2rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.nav-link {
+    border-radius: 10px;
+}
+
+.nav-link:hover {
+    background-color:#fac240;
+    box-shadow: 1px 1px 12px black;
+}
+
+#navbarNavAltMarkup{
+    justify-content: end;
+    margin-right: 1rem;
+}
+
+.welcomePage {
+    background-color: #fac240;
+    border-bottom: 0.20rem solid black;
+   
+}
+
+#welcomeMessage {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+}
+.carousel {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 1rem 1rem 1rem black;
+}
+
+.carousel-item{
+    width: 5vh;
+    height: 50vh;
+    
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.592);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.box h1 {
+    text-align: center;
+    font-family:'Ubuntu', sans-serif ;
+    font-weight: 400;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    border-bottom: 0.25rem solid #fac240;
+    max-width: 10rem;
+}
+
+.box {
+    box-shadow: 10px 10px 12px #fac240;
+    width: 40rem;
+    padding: 2rem;
+    border: 1px solid grey;
+    margin-top: 4rem;
+
+}
+
+.box p {
+    font-family:'PT Sans', sans-serif;
+    font-size: 1rem;
+
+}
+
+.leaders {
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.listMentors {
+    margin-top: 0rem;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 2rem;
+    margin-bottom: 5rem;
+}
+
+.listMentors p {
+    margin-top: 2rem;
+    font-size: 1rem;
+}
+
+.listMentors img{
+    max-width: 25rem;
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    box-shadow: 0 4px 8px black;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.listMentors img:hover{
+    transform: scale(1.2);
+
+}
+.listMentors img:hover + a {
+    color: #fac240;
+    font-weight: bold;
+}
+
+.container-formList {
+    background-color: lightgray;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.formInput {
+    list-style: none;
+    margin-left: 10rem;
+}
+
+#name{
+    margin-left: 4rem;
+}
+
+.formInput #email {
+    margin-left: 4.2rem;
+    margin-top: 1rem;
+}
+
+
+.formInput #genderLabel{
+    margin-right: 3.5rem;
+    margin-top: 1rem;
+}
+
+.formInput #message {
+    margin-left: 2.5rem;
+    margin-top: 1rem;
+}
+#submit {
+    width: 20.9rem;
+    margin-left: 0;
+    margin-top: 1rem;
+}
+#email {
+    margin-left: 3.7rem;
+}
+
+#messageLabel {
+    align-items:end;
+}
+
+#message {
+    margin-left: 2rem;
+    margin-top: 0.5rem;
+}
+
+.listMentors li {
+    text-align: center;
+    font-size: Arial, Helvetica, sans-serif, sans-serif;
+}
+
+
+.formInput p {
+    font-weight: bold;
+}
+
+
+.formList {
+    display: flex;
+    align-items: center;
+
+}
+
+
+.formOutput {
+    margin-left: 10rem;
+    list-style: none;
+}
+
+
+#result {
+    margin-top: 3rem;
+    border: 2px solid black;
+    display: inline-block;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    min-width: 30rem;
+    min-height: 10rem; /* Set a minimum height */
+    height: 15rem; /* Set a default height */
+}
+
+#result .userResult {
+    font-size: 1rem;
+    color:black;
+    font-weight: 400;
+}
+
+.footer {
+    background-color: #fac240;
+    position: relative;
+    text-align: center;
+}
+
+.footer p {
+    padding: 1em;
+}
